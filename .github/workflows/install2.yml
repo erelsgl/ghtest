@@ -19,5 +19,6 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install numpy
           python -m pip install scipy
-          apt install coinor-libcbc-dev 
+          sudo apt-get update
+          sudo apt-get install coinor-libcbc-dev 
           python -m pip install cylp
