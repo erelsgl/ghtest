@@ -1,10 +1,9 @@
 name: Install 1
 
-# on:
-#   push:
-#     branches:
-#       - main
-#       - master
+on:
+  push:
+    branches:
+      - xxx
 
 jobs:
   build:

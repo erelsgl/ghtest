@@ -1,10 +1,9 @@
-name: Install 2
+name: Install 2 on Windows
 
 on:
   push:
     branches:
-      - main
-      - master
+      - xxx
 
 jobs:
   build:
